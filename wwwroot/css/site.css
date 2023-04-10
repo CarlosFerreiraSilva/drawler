@@ -1,0 +1,35 @@
+body {
+    background: RGB(146, 168, 209);
+}
+.card {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    vertical-align: middle;
+    grid-gap: 10px 10px;
+    display: none;
+    border-radius: 4%;
+    
+}
+.btn{
+    border-radius: 10%;
+}
+
+
+.card:nth-child(-n+25) {
+    display: block;
+}
+
+input {
+    border-radius: 10%;
+}
+
+.pesquisa{
+    font-weight:bold;
+}
+
+.cabeca {
+    font-weight: bold;
+}
+
